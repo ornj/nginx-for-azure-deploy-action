@@ -24,7 +24,7 @@ fi
 if [[ -d "$config_dir_path" ]]
 then
     echo "The NGINX configuration directory '$config_dir_path' was found."
-else 
+else
     echo "The NGINX configuration directory '$config_dir_path' does not exist."
     exit 1
 fi
@@ -42,7 +42,7 @@ root_config_file_repo_path="$config_dir_path$root_config_file"
 if [[ -f "$root_config_file_repo_path" ]]
 then
     echo "The root NGINX configuration file '$root_config_file_repo_path' was found."
-else 
+else
     echo "The root NGINX configuration file '$root_config_file_repo_path' does not exist."
     exit 1
 fi
